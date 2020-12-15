@@ -1,0 +1,276 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:0FFF;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color:00FF;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  width: 740px;
+  height: 40px;
+  margin: 20px auto;
+  background-color: rgba(23,23,50,.7);
+  text-align: center;
+  border-radius: 7px;
+}
+.main > li {
+  margin: 1 5%;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  color: 00BFFF;
+  text-transform: capitalize;
+  font-family: monospace;
+  display: block;
+  padding: 10px 5px;
+  font-size: 15px;
+  transition: background-color .5s ease-in-out;
+}
+
+
+.drop li {
+  opacity: 0;
+  transform-origin: center;
+}
+
+.drop li a {
+  background-color: rgba(23,23,50,.7);
+  padding: 10px 0;
+}
+
+/*------------- menu1 animation -------------------*/
+
+.main li:hover .menu1 li:first-of-type {
+  animation: menu1 .3s ease-in-out forwards;
+  animation-delay: .3s;
+}
+
+.main li:hover .menu1 li:nth-of-type(2) {
+  animation: menu1 .3s ease-in-out forwards;
+  animation-delay: .6s;
+}
+
+.main li:hover .menu1 li:nth-of-type(3) {
+  animation: menu1 .3s ease-in-out forwards;
+  animation-delay: .9s;
+}
+
+.main li:hover .menu1 li:last-of-type {
+  animation: menu1 .3s ease-in-out forwards;
+  animation-delay: 1.2s;
+}
+
+@keyframes menu1 {
+  from {
+    opacity: 0;
+    transform: translateX(30px) rotateY(90deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) rotateY(0);
+  }
+}
+
+/*------------- menu2 animation -------------------*/
+
+.main li:hover .menu2 li:first-of-type {
+  animation: menu2 .3s ease-in-out forwards;
+  animation-delay: .3s;
+}
+
+.main li:hover .menu2 li:nth-of-type(2) {
+  animation: menu2 .3s ease-in-out forwards;
+  animation-delay: .6s;
+}
+
+.main li:hover .menu2 li:nth-of-type(3) {
+  animation: menu2 .3s ease-in-out forwards;
+  animation-delay: .9s;
+}
+
+.main li:hover .menu2 li:last-of-type {
+  animation: menu2 .3s ease-in-out forwards;
+  animation-delay: 1.2s;
+}
+
+@keyframes menu2 {
+  0% {
+    opacity: 0;
+    transform: scale(.7);
+  }
+  50% {
+    opacity: .5;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/*------------- menu3 animation -------------------*/
+
+.main li:hover .menu3 li:first-of-type {
+  animation: menu3 .3s ease-in-out forwards;
+  animation-delay: .3s;
+}
+
+.main li:hover .menu3 li:nth-of-type(2) {
+  animation: menu3 .3s ease-in-out forwards;
+  animation-delay: .6s;
+}
+
+.main li:hover .menu3 li:nth-of-type(3) {
+  animation: menu3 .3s ease-in-out forwards;
+  animation-delay: .9s;
+}
+
+.main li:hover .menu3 li:last-of-type {
+  animation: menu3 .3s ease-in-out forwards;
+  animation-delay: 1.2s;
+}
+
+@keyframes menu3 {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/*------------- menu4 animation -------------------*/
+
+.main li:hover .menu4 li:first-of-type {
+  animation: menu4 .3s ease-in-out forwards;
+  animation-delay: .3s;
+}
+
+.main li:hover .menu4 li:nth-of-type(2) {
+  animation: menu4 .3s ease-in-out forwards;
+  animation-delay: .6s;
+}
+
+.main li:hover .menu4 li:nth-of-type(3) {
+  animation: menu4 .3s ease-in-out forwards;
+  animation-delay: .9s;
+}
+
+.main li:hover .menu4 li:last-of-type {
+  animation: menu4 .3s ease-in-out forwards;
+  animation-delay: 1.2s;
+}
+
+@keyframes menu4 {
+  0% {
+    opacity: 0;
+    transform: translateX(50px) rotate(-90deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) rotate(0);
+  }
+}
+
+/*------------- menu5 animation -------------------*/
+
+.main li:hover .menu5 li:first-of-type {
+  animation: menu5 .3s ease-in-out forwards;
+  animation-delay: .3s;
+}
+
+.main li:hover .menu5 li:nth-of-type(2) {
+  animation: menu5 .3s ease-in-out forwards;
+  animation-delay: .6s;
+}
+
+.main li:hover .menu5 li:nth-of-type(3) {
+  animation: menu5 .3s ease-in-out forwards;
+  animation-delay: .9s;
+}
+
+.main li:hover .menu5 li:last-of-type {
+  animation: menu5 .3s ease-in-out forwards;
+  animation-delay: 1.2s;
+}
+
+@keyframes menu5 {
+  0% {
+    opacity: 0;
+    transform: rotateX(-90deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+/*------------- menu6 animation -------------------*/
+
+.main li:hover .menu6 li:first-of-type {
+  animation: menu6 .3s ease-in-out forwards;
+  animation-delay: .2s;
+}
+
+.main li:hover .menu6 li:nth-of-type(2) {
+  animation: menu6 .3s ease-in-out forwards;
+  animation-delay: .4s;
+}
+
+.main li:hover .menu6 li:nth-of-type(3) {
+  animation: menu6 .3s ease-in-out forwards;
+  animation-delay: .6s;
+}
+
+.main li:hover .menu6 li:last-of-type {
+  animation: menu6 .3s ease-in-out forwards;
+  animation-delay: .8s;
+}
+
+@keyframes menu6 {
+  0% {
+    opacity: 0;
+    transform: scale(2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* my button style */
+.white-mode {
+  text-decoration: none;
+  padding: 7px 10px;
+  background-color: #122;
+  border-radius: 3px;
+  color: #FFF;
+  transition: .35s ease-in-out;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  font-family: sans-serif;
+}
+
+.white-mode:hover {
+  background-color: #FFF;
+  color: #122;
+}
